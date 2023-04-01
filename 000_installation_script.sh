@@ -30,11 +30,12 @@ git clone https://github.com/lhcopt/lhctoolkit
 
 git clone $(whoami)@lxplus.cern.ch:/afs/cern.ch/eng/lhc/optics/runIII
 
-#pip install xsuite --no-deps
-#xsuite-prebuild
-#git clone https://github.com/xsuite/xmask
-#pip install -e xmask
-#cd xmask
-#git submodule init
-#git submodule update
-#cd ..
+pip install xsuite --no-deps
+xsuite-prebuild
+
+git clone https://github.com/xsuite/xmask
+pip install -e xmask
+cd xmask
+git submodule init
+git submodule update
+cd ..

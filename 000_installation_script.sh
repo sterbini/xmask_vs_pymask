@@ -33,9 +33,10 @@ git clone $(whoami)@lxplus.cern.ch:/afs/cern.ch/eng/lhc/optics/runIII
 pip install xsuite --no-deps
 xsuite-prebuild
 
-git clone https://github.com/xsuite/xmask
+git clone git@github.com:sterbini/xmask.git
 pip install -e xmask
 cd xmask
 git submodule init
 git submodule update
+git checkout feature/matching_tolernance
 cd ..

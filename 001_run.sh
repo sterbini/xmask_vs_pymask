@@ -22,7 +22,3 @@ cd hl_lhc_collisions_onbb_onerrors
 python 000_pymask.py > output.log 2> error.log &
 cd ../../
 
-cd ../
-
-
-

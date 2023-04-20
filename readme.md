@@ -20,10 +20,10 @@ source 003_run.sh
 
 To check that all went as expected you can see the result files in 
 ```
-011_test_lines/hl_lhc_collisions_offbb_offerrors/result.out
-011_test_lines/hl_lhc_collisions_offbb_onerrors/result.out
-011_test_lines/hl_lhc_collisions_onbb_onerrors/result.out
-011_test_lines/hl_lhc_collisions_onbb_offerrors/result.out
+tail 011_test_lines/hl_lhc_collisions_offbb_offerrors/result.out
+tail 011_test_lines/hl_lhc_collisions_offbb_onerrors/result.out
+tail 011_test_lines/hl_lhc_collisions_onbb_onerrors/result.out
+tail 011_test_lines/hl_lhc_collisions_onbb_offerrors/result.out
 ```
 All should end with 
 ```

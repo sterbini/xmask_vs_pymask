@@ -8,6 +8,16 @@ then run the test with
 source 001_run.sh
 ```
 
+then run the test with
+```bash
+source 002_run.sh
+```
+
+then run the test with
+```bash
+source 003_run.sh
+```
+
 If the test is sucessful you can clean it
 ```bash
 source clean_it.sh
